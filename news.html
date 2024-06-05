@@ -1,0 +1,136 @@
+<html>
+
+    <head>
+
+        <meta name="viewport" content="width=device-width initial-scale=1.0" >
+
+        <title>Web site design for ATI-Kegalle</title>
+
+        <link rel="stylesheet" href="styles1.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+        <script src="https://kit.fontawesome.com/103eb2c4d3.js" crossorigin="anonymous"></script>
+
+    </head>
+
+<body>
+
+        <section class="sub-header">
+
+            <nav>
+                
+                <a href="index.html"><img src="images/logo.png"></a>
+    
+                <div class="nav-links" id="navLinks">
+    
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+    
+                    <ul>
+                        <li><a href="index.html"><i><b>HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="news.html">NEWS</i></b></a></li>
+                    </ul>
+    
+                </div>
+    
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+    
+            </nav>
+            
+            <h1>News</h1>
+            
+        </section>
+    
+    <div>
+
+        <section class="news">
+            
+            <div class="container left-container">
+                <div class="text-box">
+                    <h2>Examination</h2>
+                    <small>Second semester examination time table</small>
+                    <p>Download link for second year examination - </p><a href="http://www.sliate.ac.lk/news/notice-board/34-notices/174-2nd-semester-examination-time-table
+                    " >Download from here</a>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div>
+
+            <div class="container right-container">
+                <div class="text-box">
+                    <h2>18th Diploma Awarding Ceremony</h2>
+                    <small>MINISTRY OF EDUCATION SRI LANKA INSTITUTE OF ADVANCED TECHNOLOGICAL EDUCATION (SLIATE)</small>
+                    <p>Students who have completed the Higher National Diploma in Academic Year 2020 should forward their applications to the Director or Academic Co-ordinator of the relevant Institute</p>
+                    <span class="right-container-arrow"></span>
+                </div>
+            </div>
+
+            <div class="container left-container">
+                <div class="text-box">
+                    <h2>Recruiting visiting lecturer</h2>
+                    <small><a href="http://www.sliate.ac.lk/news/notice-board/34-notices/175-recruitment-of-visiting-lecturers-for-the-academic-year-2022-2023-semester-i">More Details</a></small>
+                    <p align="justify">Applications are invited from qualified personals for visiting lecturing on the subjects of following Higher National Diploma (HND) programs at Advanced Technological Institutes (ATI), under the Sri Lanka Institute of Advanced Technological Education. Priority will be given to the visiting lecturers who are willing to visit respective ATI’s to deliver lectures. Preference will be given to the degree holders or above or an equivalent professionally qualified persons</p>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div>
+
+
+            <div class="container right-container">
+                <div class="text-box">
+                    <h2>Expo</h2>
+                    <small>Sri Lanka skils Expo</small>
+                    <p>Day 01 - 2023.05.12-Participation of the ATI Colombo with SLIATE staff</p>
+                    <span class="right-container-arrow"></span>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+<!-------Organize bottom section----------> 
+
+ <section class="bottom">
+
+    <h4>About Us</h4>
+    <p>Visit our all pages for know more about us.</p>
+
+    <div class="icon">
+
+        <i class="fa-brands fa-facebook"></i>
+
+        <i class="fa-brands fa-instagram"></i>
+
+        <i class="fa-brands fa-twitter"></i>
+        
+        <i class="fa-brands fa-linkedin"></i>
+
+    </div>
+
+ </section>
+
+<!-------Java script for toggle menu----------> 
+
+   <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+   </script>
+
+
+</body>
+
+</html>

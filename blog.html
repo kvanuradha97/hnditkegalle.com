@@ -1,0 +1,169 @@
+<html>
+    
+    <head>
+
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+            <title>Web site design for ATI-Kegalle</title>
+
+            <link rel="stylesheet" href="styles.css">
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+            <script src="https://kit.fontawesome.com/103eb2c4d3.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+       <section class="sub-header">
+
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+
+            <div class="nav-links" id="navLinks">
+
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html"><i><b>HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="news.html">NEWS</i></b></a></li>
+                </ul>
+
+            </div>
+
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        
+        <font size="7">Our Higher National Diploma</font>
+        
+       </section>
+    
+    <!------blog part------->
+
+    <section class="blog-content">
+
+        <div class="row">
+
+            <div class="blog-left">
+
+                <img src="images/course.jpg">
+
+                <h1>Higher National Diploma (HND) Programs at SLIATE</h1>
+
+                    <p>The <strong>Higher National Diploma (HND)</strong> programs offered by the <strong>Sri Lanka Institute of Advanced Technological Education (SLIATE)</strong> provide advanced education and practical skills to students who have successfully completed their GCE (A/L) examinations.</p>
+                    <h2>Programs and Specializations</h2>
+                    <ul>
+                    <li><strong>Accountancy (HNDA)</strong>: Prepares students for careers in auditing and accounting.</li>
+                    <li><strong>Agriculture (HNDT Agri)</strong>: Focuses on agricultural practices and management.</li>
+                    <li><strong>Business Administration (HNDBA)</strong>: Equips students with business management skills.</li>
+                    <li><strong>Engineering (Civil, Electrical, Mechanical)</strong>: Provides specialized engineering knowledge.</li>
+                    <li><strong>Information Technology (HNDIT)</strong>: Covers IT concepts, programming, and systems.</li>
+                    <li><strong>Quantity Surveying (HNDQS)</strong>: Focuses on construction cost estimation.</li>
+                    <li><strong>Tourism and Hospitality Management (HNDTHM)</strong>: Prepares students for the hospitality industry.</li>
+                    </ul>
+                    <h2>Admission and Eligibility</h2>
+                    <p>Students who have completed their GCE (A/L) exams are eligible to apply for HND courses at SLIATE. The application process is typically done online via the SLIATE website.</p>
+                    <h2>Career Prospects</h2>
+                    <p>HND holders can pursue various career paths, such as becoming registered auditors, working in management roles, or contributing to engineering projects. These programs emphasize practical skills, making graduates well-prepared for the workforce.</p>
+
+            <div class="comment-box">
+
+                <h3>Leave your ideas in here.</h3>
+
+                <form class="comment-form">
+
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your E-Mail">
+
+                    <textarea rows="5" placeholder="Your Idea"></textarea>
+
+                    <button type="submit" class="hero-btn yellow-btn">Leave Comment</button>
+
+                </form>
+
+            </div>
+
+            </div>
+
+            <div class="blog-right">
+
+                <h3>Categories</h3>
+
+                <div>
+                    <span>HND in Infromation Technology</span>
+                    <span>2</span>
+                </div>
+
+                <div>
+                    <span>HND in Project Management</span>
+                    <span>1</span>
+                </div>
+
+                <div>
+                    <span>HND in English</span>
+                    <span>1</span>
+                </div>
+
+                <div>
+                    <span>HND in Accountancy</span>
+                    <span>1</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+   
+
+    <!------facilities------->
+
+    
+
+   <!------bottom design------->
+
+     <section class="bottom">
+
+        <h4>About Us</h4>
+        <p>Visit our all pages for know more about us.</p>
+
+        <div class="icon">
+
+            <i class="fa-brands fa-facebook"></i>
+
+            <i class="fa-brands fa-instagram"></i>
+
+            <i class="fa-brands fa-twitter"></i>
+            
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+
+     </section>
+
+    <!-------Java script for toggle menu----------> 
+
+       <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+       </script>
+
+    </body>
+</html>
